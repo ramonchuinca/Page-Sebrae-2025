@@ -28,23 +28,23 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <!-- Section de imagem customizável -->
 <section class="hero-section d-flex align-items-center text-white">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h2 class="text-info fw-bold">MISSÕES</h2>
-        <h1 class="fw-bold display-4">EMPRESARIAIS<br>SEBRAE</h1>
-        <p class="mt-3">Eventos que estimulam o aprendizado, geram networking e abrem novas oportunidades de mercado.</p>
-      </div>
+ <div class="container">
+  <div class="row align-items-center">
+    <div class="col-md-6 position-relative">
+      <h2 class="text-missão">MISSÕES</h2>
+      <h1 class="titulo-sobreposicao fw-bold display-1">EMPRESARIAIS<br>SEBRAE</h1>
+      <p class="mt-3">Eventos que estimulam o aprendizado, geram networking e abrem novas oportunidades de mercado.</p>
+    </div>
 
       <div class="col-md-6 position-relative">
         <!-- Imagem principal -->
-        <img src="/src/assets/" class="img-fluid main-image" alt="Missão Sebrae" />
+        <img src="/src/assets/images/ELEMENTOS SEBRAE WF/FOTO PRINCIPAL.png" class="img-fluid main-image" alt="Missão Sebrae" />
 
         <!-- Forma roxa inferior esquerda -->
-        <img src="forma-roxa-inferior.png" class="shape shape-bottom" alt="Forma Roxa Inferior" />
+        <img src="/src/assets/images/ELEMENTOS SEBRAE WF/Shape 2.png" class="shape shape-bottom" alt="Forma Roxa Inferior" />
 
         <!-- Forma roxa superior direita -->
-        <img src="forma-roxa-superior.png" class="shape shape-top" alt="Forma Roxa Superior" />
+        <img src="/src/assets/images/ELEMENTOS SEBRAE WF/Shape 1.png" class="shape shape-top" alt="Forma Roxa Superior" />
       </div>
     </div>
   </div>
