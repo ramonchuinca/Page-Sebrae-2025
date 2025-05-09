@@ -1,0 +1,38 @@
+/* src/assets/styles/main.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/src/assets/images/ELEMENTOS SEBRAE WF/BG.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  overflow: auto; /* Mostra barra de rolagem se necessário */
+  min-height: 100vh;
+  width: 100%;
+}
+.custom-navbar {
+  background: transparent;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #0dcaf0 !important; /* Azul claro Bootstrap */
+}
+
+.hero-section {
+  min-height: 70vh;
+ 
+  padding: 1rem 0;
+}
+
+.custom-photo {
+  max-width: 100%;
+  transform: skewX(-10deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
