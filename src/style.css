@@ -5,68 +5,10 @@ body {
   background-image: url("/src/assets/images/ELEMENTOS SEBRAE WF/BG.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 100%;
+  background-size: cover;
   overflow: auto; /* Mostra barra de rolagem se necessário */
-  min-height: 100vh;
   width: 100%;
-}
-.custom-navbar {
-  background: transparent;
-  padding-top: 1rem;
-  font-size: 1rem;
+  /* min-height: 100vh; */
 }
 
-.custom-navbar .nav-link {
-  color: white !important;
-  transition: color 0.3s ease;
-}
-
-.custom-navbar .nav-link:hover {
-  color: #0dcaf0 !important; /* Azul claro Bootstrap */
-}
-
-
-.custom-photo {
-  max-width: 100%;
-  transform: skewX(-10deg);
-}
-
-.hero-section {
-  min-height: 60vh;
-  padding: 3rem 0;
-}
-.text-missão {
-  color: #0ADAB9 !important;
-  font-size: 3em;
-  font-weight: bold;
-}
-
-
-.main-image {
-  max-width: 120%;
-  left: -15%;
-  position: relative;
-  /* transform: skewX(-10deg); */
-}
-
-.shape {
-  position: absolute;
-  z-index:-2;
-  left: 32vh;
-  /* width: 60%;  */
-}
-
-/* Forma roxa inferior esquerda */
-.shape-bottom {
-    bottom: -20px;
-    left: -26vh;
-    z-index: 2;
-    width: 50%;
-    top: 48vh;
-}
-/* Forma roxa superior direita */
-.shape-top {
-  top: -40px;
-  right: -40px;
-}
 
