@@ -16,14 +16,14 @@
         <div class="col-md-6 position-relative">
           <!-- Imagem principal -->
           <img
-            src="/src/assets/images/ELEMENTOS SEBRAE WF/FOTO PRINCIPAL.png"
+            src="../assets/images/logos/FOTO PRINCIPAL.png"
             class="img-fluid main-image"
             alt="Missão Sebrae"
           />
 
           <!-- Forma roxa inferior esquerda -->
           <img
-            src="/src/assets/images/ELEMENTOS SEBRAE WF/Shape 2.png"
+            src="../assets/images/logos/Shape 2.png"
             class="shape shape-bottom"
             alt="Forma Roxa Inferior"
             
@@ -31,7 +31,7 @@
 
           <!-- Forma roxa superior direita -->
           <img
-            src="/src/assets/images/ELEMENTOS SEBRAE WF/Shape 1.png"
+            src="../assets/images/logos/Shape 1.png"
             class="shape shape-top"
             alt="Forma Roxa Superior"
             

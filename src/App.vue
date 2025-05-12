@@ -4,6 +4,8 @@
     <main>
       <HeroSection />
       <MissaoEmpresarial />
+      <MissoesNacionais />
+      <MissoesInternacionais />  
     </main>
   </div>
 </template>
@@ -12,17 +14,19 @@
 import Navbar from './components/Navbar.vue'
 import HeroSection from './components/HeroSection.vue'
 import MissaoEmpresarial from './components/MissaoEmpresarial.vue'
+import MissoesNacionais from './components/MissoesNacionais.vue'
+import MissoesInternacionais from './components/MissoesInternacionais.vue'
 
 export default {
   components: {
     Navbar,
     HeroSection,
-    MissaoEmpresarial
+    MissaoEmpresarial,
+    MissoesNacionais,
+    MissoesInternacionais
   }
 }
 </script>
-
-
 
 <style scoped>
 .navbar, .content {

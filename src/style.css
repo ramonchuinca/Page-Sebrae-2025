@@ -1,8 +1,10 @@
-/* src/assets/styles/main.css */
+/* src
+/assets/styles/main.css */
+@import "tailwindcss";
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/src/assets/images/ELEMENTOS SEBRAE WF/BG.png");
+  background-image: url("/src/assets/images/logos/BG.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;

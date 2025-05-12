@@ -1,24 +1,23 @@
 <template>
-  <nav class="navbar navbar-expand-lg custom-navbar">
-    <div class="container">
-      <div class="collapse navbar-collapse justify-content-center">
-        <ul class="navbar-nav gap-4">
-          <li class="nav-item">
-            <a class="nav-link text-white fw-semibold" href="#">O que é?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-semibold" href="#">Missões Nacionais</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-semibold" href="#">Missões Internacionais</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-semibold" href="#">Dúvidas</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<nav class="absolute top-0 w-full h-16 bg-transparent z-50">
+  <div class="w-full h-full flex justify-center items-center">
+    <ul class="flex gap-8 md:gap-12">
+      <li>
+        <a href="#" class="text-white font-semibold hover:underline">O que é?</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:underline">Missões Nacionais</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:underline">Missões Internacionais</a>
+      </li>
+      <li>
+        <a href="#" class="text-white font-semibold hover:underline">Dúvidas</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 </template>
 
 
