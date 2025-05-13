@@ -16,7 +16,7 @@
     class="rounded-2xl shadow-md text-center bg-white text-gray-800 w-[270px] mx-auto p-2"
   >
     <!-- Área azul semelhante ao botão -->
-    <div class="bg-gradient-to-bl from-blue-600 to-sky-400 w-[250px] h-[164px] rounded-3xl flex items-center justify-center mx-auto">
+    <div class="bg-gradient-to-bl from-blue-800 to-sky-400 w-[250px] h-[164px] rounded-3xl flex items-center justify-center mx-auto">
       <img :src="card.img" class="w-40 h-auto" />
     </div>
 
@@ -28,8 +28,15 @@
 
 
     <div class="mt-10">
-      <p class="mb-4 text-2xl font-bold">Quer se inscrever em uma missão empresarial nacional?</p>
-      <a href="#" class="bg-black text-white px-6 py-2 text-lg rounded-full inline-block">ACESSE</a>
+   <p class="mb-4 text-2xl font-bold">Quer se inscrever em uma missão empresarial internacional?</p>
+    <div class="flex justify-center items-center mt-6">
+  <a href="https://ro.loja.sebrae.com.br/catalogsearch/result/?q=missão" target="_blank"
+     class="relative px-10 py-3 rounded-full text-white font-bold 
+            bg-gradient-to-r from-[#1e1126] to-[#1d3557] border-4 border-[#00ff84] w-[280px] h-[70px] animate-border-glow flex items-center justify-center"
+     style="border-radius:35px;">
+    ACESSE
+  </a>
+</div>
     </div>
   </div>
 </section>

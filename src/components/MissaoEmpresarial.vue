@@ -10,15 +10,15 @@
       </p>
     </div>
 
-   <div class="container-1 mt-5">
+ <div class="container-1 mt-5">
   <div class="row align-items-center justify-content-center">
     <div class="col-lg-5 pe-lg-4 text-end">
       <h3 class="fw-bold text-primary m-0" style="font-size: 2.5rem; line-height: 1.2;">
-  Principais objetivos<br />
-  de uma<br />
-  Missão Empresarial<br />
-  do Sebrae:
-</h3>
+        Principais objetivos<br />
+        de uma<br />
+        Missão Empresarial<br />
+        do Sebrae:
+      </h3>
 
     </div>
     <div class="col-lg-5 ps-lg-4">
@@ -57,7 +57,7 @@ export default {
 
 .container-1{
 position: relative;
-top: 70vh;
+top: 50vh;
 }
 
 .text-primary {

@@ -8,9 +8,26 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  overflow: auto; /* Mostra barra de rolagem se necessário */
+  overflow:auto; /* Mostra barra de rolagem se necessário */
   width: 100%;
   /* min-height: 100vh; */
 }
+
+
+@keyframes border-glow {
+  0%, 100% {
+    box-shadow: 0 0 0px #00ff84;
+  }
+  50% {
+    box-shadow: 0 0 15px 4px #00ff84;
+  }
+}
+
+.animate-border-glow {
+  animation: border-glow 1.8s infinite ease-in-out;
+}
+
+
+
 
 
