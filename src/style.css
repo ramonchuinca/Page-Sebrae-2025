@@ -41,21 +41,13 @@ body {
 }
 
 .animate-rotatePurple {
-  background-image: conic-gradient(
-    transparent,
-    transparent,
-    #9d00ff,
-    #d100ff,
-    #9d00ff,
-    #d100ff
-  );
+  background-image: conic-gradient(transparent, transparent, transparent, #f700ff);
   animation: rotatePurple 4s linear infinite;
+  top: -100px;
+  left: -100px;
   position: absolute;
-  top: -150px;
-  left: -150px;
   border-radius: 50%;
 }
-
 
 
 
