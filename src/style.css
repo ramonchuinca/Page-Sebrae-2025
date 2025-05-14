@@ -4,28 +4,59 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/src/assets/images/logos/BG.png");
+  background-image: url("/src/assets/images/logos/BG 002.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
-  overflow:auto; /* Mostra barra de rolagem se necessário */
   width: 100%;
-  /* min-height: 100vh; */
+  box-sizing: border-box;
+  /* background-size: cover; */
+  overflow: auto;
+  height: auto;
+ 
 }
 
-
-@keyframes border-glow {
+@keyframes glow-line {
   0%, 100% {
     box-shadow: 0 0 0px #00ff84;
   }
   50% {
-    box-shadow: 0 0 15px 4px #00ff84;
+    box-shadow: 0 0 12px 2px #00ff84;
   }
 }
 
-.animate-border-glow {
-  animation: border-glow 1.8s infinite ease-in-out;
+.animate-glow-line {
+  animation: glow-line 1.5s infinite ease-in-out;
 }
+
+
+
+
+@keyframes rotatePurple {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotatePurple {
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    #9d00ff,
+    #d100ff,
+    #9d00ff,
+    #d100ff
+  );
+  animation: rotatePurple 4s linear infinite;
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  border-radius: 50%;
+}
+
+
 
 
 

@@ -10,7 +10,7 @@
       </p>
     </div>
 
- <div class="container-1 mt-5">
+ <div class="container-1 mt-[10%]">
   <div class="row align-items-center justify-content-center">
     <div class="col-lg-5 pe-lg-4 text-end">
       <h3 class="fw-bold text-primary m-0" style="font-size: 2.5rem; line-height: 1.2;">
@@ -52,7 +52,7 @@ export default {
 
 .container{
   position:relative;
-  top: 30vh;
+  top: 45vh;
 }
 
 .container-1{

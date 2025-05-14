@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div >
     <Navbar />
     <main>
       <HeroSection />
@@ -16,6 +16,7 @@ import HeroSection from './components/HeroSection.vue'
 import MissaoEmpresarial from './components/MissaoEmpresarial.vue'
 import MissoesNacionais from './components/MissoesNacionais.vue'
 import MissoesInternacionais from './components/MissoesInternacionais.vue'
+import BannerPrincipal from './assets/images/logos/BG 002.png'
 
 export default {
   components: {
