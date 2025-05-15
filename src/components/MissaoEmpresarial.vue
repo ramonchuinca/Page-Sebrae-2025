@@ -1,14 +1,18 @@
 <template>
-  <section class="py-5 text-white">
-    <div class="container text-center">
-      <h2 class="fw-bold mb-4 text-uppercase text-teal">O que é uma missão empresarial?</h2>
-      <p class="fs-5 mx-auto" style="max-width: 1000px; font-weight: bold; line-height: 2;">
-        A Missão Empresarial é uma ação em que o Sebrae organiza e viabiliza o deslocamento de grupos com a
-        finalidade de participação em agendas técnicas ou eventos (feiras, exposições e outros centros de
-        referências), tanto no Brasil quanto no exterior. Essa é uma oportunidade para aprendizado e também para
-        conexão com outros empreendedores da mesma área.
-      </p>
-    </div>
+ <section class="py-20 text-white relative top-[-8vh]">
+  <div class="container  mx-auto text-center px-4">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 uppercase" style="color: #20c997; font-size: 2.5rem;">
+      O que é uma missão empresarial?
+    </h2>
+    <p class="text-lg md:text-xl mx-auto font-bold leading-relaxed max-w-4xl" style="font-size: 1.5rem; width: 100%; ">
+      A Missão Empresarial é uma ação em que o Sebrae organiza e viabiliza o deslocamento de grupos com a
+      finalidade de participação em agendas técnicas ou eventos (feiras, exposições e outros centros de
+      referências), tanto no Brasil quanto no exterior. Essa é uma oportunidade para aprendizado e também para
+      conexão com outros empreendedores da mesma área.
+    </p>
+  </div>
+
+
 
  <div class="container-1 mt-[10%]">
   <div class="row align-items-center justify-content-center">
@@ -42,9 +46,6 @@ export default {
 
 <style scoped>
 
-.text-center{
-  position: relative;
-}
 .text-teal {
   color: #20c997; /* Bootstrap teal */
   font-size: 2.5rem;

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-section d-flex align-items-center text-white">
+  <section class="hero-section d-flex align-items-center text-white relative top-[5vh]">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 position-relative">
@@ -20,23 +20,7 @@
             src="../assets/images/logos/FOTO PRINCIPAL 02.png"
             class="w-full max-w-[100vh] h-auto object-contain mt-[-42%] ml-[32%]"
             alt="Missão Sebrae"
-         
-
           />
-
-          <!-- Forma roxa inferior esquerda -->
-          <!-- <img
-            src="../assets/images/logos/Shape 2.png"
-            class="shape shape-bottom"
-            alt="Forma Roxa Inferior"
-          /> -->
-
-          <!-- Forma roxa superior direita -->
-          <!-- <img
-            src="../assets/images/logos/Shape 1.png"
-            class="shape shape-top"
-            alt="Forma Roxa Superior"
-          /> -->
         </div>
       </div>
     </div>
@@ -85,31 +69,4 @@ export default {
   width: 100%;
 }
 
-.main-image {
-  max-width: 120%;
-  left: -15%;
-  position: relative;
-  transform: skewX(-10deg);
-}
-
-.shape {
-  position: absolute;
-  z-index: -2;
-  left: 32vh;
-  /* width: 60%;  */
-}
-
-/* Forma roxa inferior esquerda */
-.shape-bottom {
-  bottom: -20px;
-  left: -26vh;
-  z-index: 2;
-  width: 50%;
-  top: 48vh;
-}
-/* Forma roxa superior direita */
-.shape-top {
-  top: -7%;
-  width: 80%;
-}
 </style>

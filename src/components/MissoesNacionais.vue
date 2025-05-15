@@ -1,5 +1,5 @@
 <template>
-  <section class="relative text-center py-10 text-white mt-[120vh]">
+  <section class="relative top-[108vh] text-center py-10 text-white ">
     <div class="container mx-auto px-4 mt-[3%]">
       <h2 class="font-bold text-2xl mb-6" style="font-size: 3rem">
         Confira as próximas Missões Empresariais:

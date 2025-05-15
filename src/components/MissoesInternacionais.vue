@@ -1,5 +1,5 @@
 <template>
-  <section class="relative text-center py-10 text-white mt-[120vh]">
+  <section class="relative text-center py-10 text-white mt-[227vh]">
     <div class="container mx-auto px-4 mt-[9%]">
       
       <!-- Título com ícone -->
